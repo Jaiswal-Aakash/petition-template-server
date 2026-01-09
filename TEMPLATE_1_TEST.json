@@ -1,0 +1,38 @@
+{
+  "templateId": 1,
+  "format": "html",
+  "formData": {
+    "caseNumber": "S.C.No. 325 of 2025",
+    "courtName": "COIMBATORE",
+    "accused": [
+      {
+        "name": "SANJEEVKUMAR",
+        "AccusedName": "SANJEEVKUMAR"
+      },
+      {
+        "name": "ASWINKUMAR",
+        "AccusedName": "ASWINKUMAR"
+      }
+    ],
+    "respondentName": "INSPECTOR OF POLICE,",
+    "respondentStation": "PERIYANAIKENPALAYAM POLICE STATION,",
+    "respondentAddress": "COIMBATORE.",
+    "sectionNumber": "355(1)",
+    "point1": "The Petitioners /Accused case is posted today.",
+    "point2": "The Petitioners/Accused could not able to attend the Hon'ble Court today A2 got leg injury and A3 due his illness.",
+    "point3": "The Petitioners will be regular in all upcoming hearings.",
+    "point4": "This absence is neither wanton nor willful.",
+    "prayer": "to condone the absence of the petitioner/accused and to proceed the case with that of his counsel",
+    "place": "Coimbatore",
+    "executionDay": "30",
+    "executionMonth": "December",
+    "executionYear": "2025",
+    "hearingDate": "30/12/2025",
+    "advocateName": "G.JANARTHANAN.BCom.LLB.",
+    "advocateAddress": "78/82, Semi Basement, Govt. Arts College Road, Cheran Towers, Coimbatore – 641 018.",
+    "advocatePhone": "93444 84069",
+    "courtFullName": "PRINCIPAL DISTRICT AND SESSIONS JUDGE OF COIMBATORE",
+    "addressSection": true
+  }
+}
+
