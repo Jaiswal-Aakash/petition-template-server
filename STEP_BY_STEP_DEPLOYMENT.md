@@ -22,7 +22,7 @@ cd C:\Users\RIO\Desktop\law\template-server
 You should see:
 - `server.js`
 - `package.json`
-- `ecosystem.config.js` (we just created this)
+- `ecosystem.config.cjs` (we just created this)
 - `deploy.sh` (we just created this)
 
 ---
@@ -83,7 +83,7 @@ cd /home/username/template-server
 ls -la
 ```
 
-You should see all the files including `server.js`, `package.json`, `ecosystem.config.js`, etc.
+You should see all the files including `server.js`, `package.json`, `ecosystem.config.cjs`, etc.
 
 ---
 
@@ -233,7 +233,7 @@ NODE_ENV=production
 
 ### 10.1 Start using ecosystem config (Recommended)
 ```bash
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 
 ### 10.2 Verify it's running

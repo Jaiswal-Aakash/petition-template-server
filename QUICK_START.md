@@ -42,7 +42,7 @@ npm install --production
 mkdir -p logs
 
 # 6. Start with PM2
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 
 # 7. Save PM2 configuration
 pm2 save

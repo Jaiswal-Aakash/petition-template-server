@@ -118,10 +118,10 @@ mkdir -p logs
 
 ## Step 8: Start with PM2
 
-### Option A: Using ecosystem.config.js (Recommended)
+### Option A: Using ecosystem.config.cjs (Recommended)
 
 ```bash
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 
 ### Option B: Direct start

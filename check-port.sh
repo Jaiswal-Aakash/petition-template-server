@@ -19,7 +19,7 @@ if sudo lsof -i :6000 > /dev/null 2>&1 || sudo netstat -tlnp 2>/dev/null | grep 
     echo "   - 8001"
     echo ""
     echo "To change the port:"
-    echo "  1. Edit ecosystem.config.js and change PORT value"
+    echo "  1. Edit ecosystem.config.cjs and change PORT value"
     echo "  2. Or create .env file with PORT=6001"
 else
     echo "✅ Port 6000 is available!"

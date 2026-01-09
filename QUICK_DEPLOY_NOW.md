@@ -27,7 +27,7 @@ mkdir -p logs
 
 ### Step 4: Start with PM2
 ```bash
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 
 ### Step 5: Verify It's Running

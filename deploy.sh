@@ -105,7 +105,9 @@ fi
 
 # Start with PM2
 echo -e "${YELLOW}Starting template-server with PM2...${NC}"
-if [ -f ecosystem.config.js ]; then
+if [ -f ecosystem.config.cjs ]; then
+    pm2 start ecosystem.config.cjs
+elif [ -f ecosystem.config.js ]; then
     pm2 start ecosystem.config.js
 else
     pm2 start server.js --name template-server --env production

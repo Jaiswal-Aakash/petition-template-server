@@ -52,11 +52,11 @@ You need to change the port. See **Step 2A** below.
 
 ## Step 2A: Change Port (If 6000 is Taken)
 
-### Option 1: Change in ecosystem.config.js
+### Option 1: Change in ecosystem.config.cjs
 
 Edit the ecosystem config:
 ```bash
-nano ecosystem.config.js
+nano ecosystem.config.cjs
 ```
 
 Change the PORT value:
@@ -211,7 +211,7 @@ Save: `Ctrl+X`, then `Y`, then `Enter`
 
 ### 9.1 Start the server
 ```bash
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 
 ### 9.2 Verify it's running
@@ -393,8 +393,8 @@ After deployment, you should have:
 # Find what's using the port
 sudo lsof -i :6000
 
-# Change port in ecosystem.config.js or .env
-nano ecosystem.config.js
+# Change port in ecosystem.config.cjs or .env
+nano ecosystem.config.cjs
 # Change PORT to an available port
 ```
 
